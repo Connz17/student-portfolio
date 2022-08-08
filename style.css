@@ -2,9 +2,22 @@
 
 /* Fonts: ("Oleo Script Swash Caps" - Fancy) - ("Poppins" - Body) - ("Roboto Slab" - Titles) */
 
+ /* Heading teck colour = dark blue  body text colour = black */
+
 * {
     margin: 0;
     padding: 0;
     background-color: skyblue;
 }
 
+p {
+    font-family: Poppins;
+    color: black;  
+}
+
+h1 {
+    font-family: Roboto Slab;
+    color: midnightblue;
+    text-decoration: underline gold 3px;
+    text-transform: capitalize;
+}
