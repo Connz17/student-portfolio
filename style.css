@@ -68,12 +68,22 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr, 2fr;
+  text-align: center;
   border: 2px solid red;
 }
 .projects h1 {
   grid-column: 1/4;
   margin: 5px;
   padding: 7px;
+}
+
+#about {
+  background-color: black;
+}
+
+.me {
+  background-color: black;
+  border: 2px solid red;
 }
 
 p {
