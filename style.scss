@@ -67,10 +67,10 @@ nav {
 .intro {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     text-align: left;
 
     border: 2px solid red;
@@ -103,6 +103,7 @@ nav {
 
 
     border: 2px solid red;
+    
     h1 { grid-column: 1/4;
         margin: 5px;
         padding: 7px;
