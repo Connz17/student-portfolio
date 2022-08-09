@@ -19,10 +19,19 @@ $colour-body: black;
 }
 
 
-// page stylings
+// top bar stylings
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+
+}
+
 #name {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    justify-content: flex-start;   
     font-size: small;
     margin: 5px;
     padding: 10px;
@@ -32,6 +41,7 @@ $colour-body: black;
     color:$color-heading;
 
 
+    
 }
 
 .nav {
@@ -53,6 +63,7 @@ $colour-body: black;
 
 }
 
+// main body stylings
 .intro {
     display: flex;
     flex-direction: column;
@@ -88,12 +99,15 @@ $colour-body: black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr, 2fr;
-    text-align: center;
+    text-align: justify;
+
 
     border: 2px solid red;
     h1 { grid-column: 1/4;
         margin: 5px;
         padding: 7px;
+        text-align: center;
+        
     }
 
 }
