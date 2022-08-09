@@ -67,12 +67,35 @@ $colour-body: black;
 }
 
 .skills {
+    padding: 8px;
     text-align: center;
 
     border: 2px solid red;
 
 }
 
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 3px;
+    font-family: $font-body;
+    font-size: smaller;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr, 2fr;
+
+    border: 2px solid red;
+    h1 { grid-column: 1/4;
+        margin: 5px;
+        padding: 7px;
+    }
+
+}
 
 p {
     font-family: $font-body;
