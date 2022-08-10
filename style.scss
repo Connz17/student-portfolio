@@ -6,8 +6,11 @@ $font-body: "Poppins";
 $font-title: "Roboto Slab";
 
  /* Heading text colour = dark blue  body text colour = black */
-$color-heading: skyblue;
+$color-heading: gold;
 $colour-body: black;
+$color-footer: teal;
+$color-background: aqua;
+
 
 
 
@@ -21,20 +24,24 @@ $colour-body: black;
 
 body {
 
+    h1 {
+        font-family: $font-title;
+        color: $color-heading;
+        text-decoration: underline skyblue 1.5px;
+        text-transform: capitalize;
+        }
+
     p {
     font-family: $font-body;
-    color: $colour-body;  
+    color: $colour-body; 
+    max-width: fit-content;
+    height:fit-content; 
+
     }
 
-h1 {
-    font-family: $font-title;
-    color: $color-heading;
-    text-decoration: underline gold 1.5px;
-    text-transform: capitalize;
-    }
 
     a {
-        
+
     }
 }
 
@@ -68,7 +75,7 @@ nav {
     padding: 3px;
     margin: 2px;
 
-        .nav-title {
+        .nav__title {
         margin: 3px;
         padding: 2px;
         font-family: $font-fancy;
@@ -105,7 +112,7 @@ nav {
     text-align: center;
     height: 15%;
 
-    .list {
+    .skills__list {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -113,6 +120,11 @@ nav {
         margin: 3px;
         font-family: $font-body;
         font-size: smaller;
+
+        .pic {
+            max-width: 100%;
+            height: auto;
+        }
     }
 
 }
@@ -137,12 +149,17 @@ nav {
 }
 
 .me {
-    background-color: rgba(144, 226, 249, 0.53);
+    background-color: $color-background;
     height: 25%;
+
+    .me__blurb {
+        background-color: $color-background
+    }
 
 }
 
 footer {
+    background-color: $color-footer;
     display: flex;
     justify-content: space-between;
     width: 100%; 
@@ -151,12 +168,17 @@ footer {
 
     #email {
         display: flex;
+        align-items: center;
+        background-color: $color-footer;
+
 
     }
 
     .icon {
     display: flex;
     justify-content: flex-end;
+    background-color: $color-footer;
+
 
     }    
 

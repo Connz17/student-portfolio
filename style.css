@@ -8,15 +8,17 @@
   box-sizing: border-box;
 }
 
+body h1 {
+  font-family: "Roboto Slab";
+  color: gold;
+  text-decoration: underline skyblue 1.5px;
+  text-transform: capitalize;
+}
 body p {
   font-family: "Poppins";
   color: black;
-}
-body h1 {
-  font-family: "Roboto Slab";
-  color: skyblue;
-  text-decoration: underline gold 1.5px;
-  text-transform: capitalize;
+  max-width: fit-content;
+  height: fit-content;
 }
 nav {
   display: flex;
@@ -34,7 +36,7 @@ nav #name {
   padding: 10px;
   margin-left: 15px;
   font-family: "Oleo Script Swash Caps";
-  color: skyblue;
+  color: gold;
 }
 nav .nav {
   display: flex;
@@ -43,7 +45,7 @@ nav .nav {
   padding: 3px;
   margin: 2px;
 }
-nav .nav .nav-title {
+nav .nav .nav__title {
   margin: 3px;
   padding: 2px;
   font-family: "Oleo Script Swash Caps";
@@ -67,7 +69,7 @@ nav .nav .nav-title {
   text-align: center;
   height: 15%;
 }
-.skills .list {
+.skills .skills__list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -75,6 +77,10 @@ nav .nav .nav-title {
   margin: 3px;
   font-family: "Poppins";
   font-size: smaller;
+}
+.skills .skills__list .pic {
+  max-width: 100%;
+  height: auto;
 }
 
 .projects {
@@ -92,11 +98,15 @@ nav .nav .nav-title {
 }
 
 .me {
-  background-color: rgba(144, 226, 249, 0.53);
+  background-color: aqua;
   height: 25%;
+}
+.me .me__blurb {
+  background-color: aqua;
 }
 
 footer {
+  background-color: teal;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -104,8 +114,11 @@ footer {
 }
 footer #email {
   display: flex;
+  align-items: center;
+  background-color: teal;
 }
 footer .icon {
   display: flex;
   justify-content: flex-end;
+  background-color: teal;
 }
