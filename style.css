@@ -20,6 +20,20 @@ body p {
   max-width: fit-content;
   height: fit-content;
 }
+body .button__link {
+  background-color: teal;
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 7px;
+  font-family: "Poppins";
+  color: black;
+  font-weight: 600;
+  border: 1.5px solid black;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -98,11 +112,11 @@ nav .nav .nav__title {
 }
 
 .me {
-  background-color: aqua;
+  background-color: #E3F6F5;
   height: 25%;
 }
 .me .me__blurb {
-  background-color: aqua;
+  background-color: #E3F6F5;
 }
 
 footer {
@@ -115,6 +129,7 @@ footer {
 footer #email {
   display: flex;
   align-items: center;
+  color: gold;
   background-color: teal;
 }
 footer .icon {
