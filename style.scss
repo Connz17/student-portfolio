@@ -9,13 +9,33 @@ $font-title: "Roboto Slab";
 $color-heading: skyblue;
 $colour-body: black;
 
+
+
 // globalpage settings
 * {
     margin: 0;
     padding: 0;
     background-color: white;
     box-sizing: border-box;
+}
 
+body {
+
+    p {
+    font-family: $font-body;
+    color: $colour-body;  
+    }
+
+h1 {
+    font-family: $font-title;
+    color: $color-heading;
+    text-decoration: underline gold 1.5px;
+    text-transform: capitalize;
+    }
+
+    a {
+        
+    }
 }
 
 
@@ -27,43 +47,44 @@ nav {
     width: 100%; 
     height: 5%;
 
-}
+    #name {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;   
+        font-size: small;
+        font-weight: lighter;
+        margin: 5px;
+        padding: 10px;
+        margin-left: 15px;
+        font-family: $font-fancy;
+        color:$color-heading;
+        
+    }
 
-#name {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;   
-    font-size: small;
-    font-weight: lighter;
-    margin: 5px;
-    padding: 10px;
-    margin-left: 15px;
-    border: 2px solid red;
-    font-family: $font-fancy;
-    color:$color-heading;
-
-
-    
-}
-
-.nav {
+    .nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 3px;
     margin: 2px;
 
-    border: 2px solid red;
+        .nav-title {
+        margin: 3px;
+        padding: 2px;
+        font-family: $font-fancy;
+        font-size: medium;
+        font-weight:normal;
+
+        }
+
+    }
+
 }
 
-.nav-title {
-    margin: 3px;
-    padding: 2px;
-    font-family: $font-fancy;
-    font-size: medium;
-    font-weight:normal;
+    
 
-}
+
+
 
 // main body stylings
 .intro {
@@ -76,8 +97,7 @@ nav {
     text-align: left;
     height: 20%;
 
-    border: 2px solid red;
-
+    
 }
 
 .skills {
@@ -85,19 +105,19 @@ nav {
     text-align: center;
     height: 15%;
 
-    border: 2px solid red;
+    .list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 5px;
+        margin: 3px;
+        font-family: $font-body;
+        font-size: smaller;
+    }
 
 }
 
-.list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 5px;
-    margin: 3px;
-    font-family: $font-body;
-    font-size: smaller;
-}
+
 
 .projects {
     display: grid;
@@ -106,8 +126,6 @@ nav {
     text-align: justify;
     height: 30%;
 
-
-    border: 2px solid red;
     
     h1 { grid-column: 1/4;
         margin: 5px;
@@ -122,9 +140,6 @@ nav {
     background-color: rgba(144, 226, 249, 0.53);
     height: 25%;
 
-
-    border: 2px solid red;
-
 }
 
 footer {
@@ -133,30 +148,20 @@ footer {
     width: 100%; 
     height: 5%;
 
-    border: 2px solid red;
-}
 
-#email {
-    display: flex;
+    #email {
+        display: flex;
 
-    border: 2px solid red;
-}
+    }
 
-.icon {
+    .icon {
     display: flex;
     justify-content: flex-end;
-    border: 2px solid red;
 
-}    
+    }    
 
-p {
-    font-family: $font-body;
-    color: $colour-body;  
 }
 
-h1 {
-    font-family: $font-title;
-    color: $color-heading;
-    text-decoration: underline gold 1.5px;
-    text-transform: capitalize;
-}
+
+
+
