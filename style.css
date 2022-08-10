@@ -46,7 +46,7 @@ nav #name {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  font-size: small;
+  font-size: larger;
   font-weight: lighter;
   margin: 5px;
   padding: 10px;
@@ -60,13 +60,14 @@ nav .nav {
   align-items: center;
   padding: 3px;
   margin: 2px;
+  font-family: "Oleo Script Swash Caps";
 }
 nav .nav .nav__title {
   margin: 3px;
-  padding: 2px;
-  font-family: "Oleo Script Swash Caps";
+  padding: 5px;
   font-size: medium;
   font-weight: normal;
+  color: black;
 }
 
 .intro {
