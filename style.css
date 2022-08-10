@@ -11,13 +11,15 @@
 body h1 {
   font-family: "Roboto Slab";
   color: gold;
-  text-decoration: underline skyblue 1.5px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  text-decoration-color: skyblue;
   text-transform: capitalize;
 }
 body p {
   font-family: "Poppins";
   color: black;
-  max-width: fit-content;
   height: fit-content;
 }
 body .button__link {
@@ -83,7 +85,7 @@ nav .nav .nav__title {
   text-align: center;
   height: 15%;
 }
-.skills .skills__list {
+.skills__list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -92,7 +94,7 @@ nav .nav .nav__title {
   font-family: "Poppins";
   font-size: smaller;
 }
-.skills .skills__list .pic {
+.skills__list .pic {
   max-width: 100%;
   height: auto;
 }
@@ -116,15 +118,18 @@ nav .nav .nav__title {
   height: 25%;
   margin-left: 7px;
 }
-.me .me__blurb {
+.me__blurb {
   background-color: #E3F6F5;
 }
-.me .me__list {
+.me__list {
   font-family: "Roboto Slab";
   color: gold;
   background-color: #E3F6F5;
 }
-.me .me__list .me__list--items {
+.me__list--heading {
+  background-color: #E3F6F5;
+}
+.me__list--items {
   display: flex;
   flex-direction: column;
   font-family: "Poppins";
