@@ -36,40 +36,6 @@ body .button__link {
   border: 1.5px solid black;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 5%;
-}
-nav #name {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  font-size: larger;
-  font-weight: lighter;
-  margin: 5px;
-  padding: 10px;
-  margin-left: 15px;
-  font-family: "Oleo Script Swash Caps";
-  color: gold;
-}
-nav .nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 3px;
-  margin: 2px;
-  font-family: "Oleo Script Swash Caps";
-}
-nav .nav .nav__title {
-  margin: 3px;
-  padding: 5px;
-  font-size: medium;
-  font-weight: normal;
-  color: black;
-}
-
 .intro {
   display: flex;
   flex-direction: column;
@@ -122,60 +88,26 @@ nav .nav .nav__title {
 .me__blurb {
   background-color: #E3F6F5;
 }
-
-.list {
-  width: 100%;
+.me__list {
   font-family: "Roboto Slab";
   color: gold;
   background-color: #E3F6F5;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  max-height: auto;
-  border: 1px solid red;
+  justify-content: space-around;
+  height: auto;
 }
-.list__heading {
+.me__list--heading {
   background-color: #E3F6F5;
 }
-.list__heading__items {
+.me__list--items {
   display: flex;
   flex-direction: column;
   font-family: "Poppins";
   color: black;
   background-color: #E3F6F5;
 }
-.list .balls {
-  display: flex;
-  border: 1px solid red;
-  align-items: flex-start;
-  height: auto;
-  justify-content: flex-end;
-}
-.list .balls__sport {
+.me__list--sport {
   border-radius: 10px;
   border: 1px solid red;
-}
-
-footer {
-  background-color: teal;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 5%;
-  margin: 3px;
-  padding: 5px;
-}
-footer #email {
-  display: flex;
-  align-items: center;
-  color: gold;
-  background-color: teal;
-}
-footer .icon {
-  display: flex;
-  justify-content: space-around;
-  background-color: teal;
-  padding: 7px;
-  max-width: 100%;
-  height: auto;
 }

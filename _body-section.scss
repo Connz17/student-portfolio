@@ -65,23 +65,56 @@
         background-color: $color-background;
     }
 
-    &__list {
-        font-family: $font-title;
-        color: $color-heading;
-        background-color: $color-background;
+}
+    
+    
+    
+.list {
+    width: 100%;
+    font-family: $font-title;
+    color: $color-heading;
+    background-color: $color-background;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: auto;
 
-        &--heading {
+    border: 1px solid red;
+
+
+        &__heading {
             background-color: $color-background;
+            
+            &__items {
+                        display: flex;
+                        flex-direction: column;
+                        font-family: $font-body;
+                        color: black;
+                        background-color: $color-background;
+
+                    }
         }
 
-        &--items {
+        
+
+        .balls {
             display: flex;
-            flex-direction: column;
-            font-family: $font-body;
-            color: black;
-            background-color: $color-background;
+            border: 1px solid red;
+            align-items:flex-start;
+            height: auto;
+            justify-content: flex-end;
 
+            &__sport {
+
+                border-radius: 10px;
+                border: 1px solid red;
+
+                }
+
+            
+        
         }
+    
     }
 
-}
+
