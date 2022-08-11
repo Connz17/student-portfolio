@@ -8,26 +8,34 @@
     justify-content:space-around;
     align-items: center;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
     text-align: left;
+    font-size: large;
+    
+    
     height: 20%;
+
+    &__deets {
+        font-family: $font-fancy;
+        font-weight:300;
+    }
 
 }
 
 .skills {
     
-    padding: 8px;
+    padding: 57px;
     text-align: center;
     height: 15%;
+    font-size: large;
 
     &__list {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding: 5px;
-        margin: 3px;
+        align-items:flex-start;
+        margin-top: 53px;
         font-family: $font-body;
-        font-size: smaller;
 
         .pic {
             max-width: 100%;
@@ -45,7 +53,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 2fr;
     text-align: justify;
-    // height: 30%;
+    font-size: large;
     margin: 10px;
     padding: 3px;
 
