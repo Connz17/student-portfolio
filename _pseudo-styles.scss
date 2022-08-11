@@ -1,7 +1,7 @@
 @use './_typography&variables.scss' as *;
 
 a:link {
-
+    text-decoration: none;
 }
 
 .projects__card--image:hover {
@@ -17,7 +17,7 @@ a:link {
 
 .skills__list--pic:hover {
     color: $font-title;
-    transform: scale(120%);
+    transform: scale(130%);
     
 }
 

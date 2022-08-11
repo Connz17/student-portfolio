@@ -32,6 +32,7 @@ body .button__link {
   font-family: "Poppins";
   color: black;
   font-weight: 600;
+  box-shadow: 3px 7px 10px gold;
   border: 1.5px solid black;
 }
 
@@ -211,6 +212,10 @@ footer .icon {
   height: auto;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .projects__card--image:hover {
   opacity: 1;
 }
@@ -223,7 +228,7 @@ footer .icon {
 
 .skills__list--pic:hover {
   color: "Roboto Slab";
-  transform: scale(120%);
+  transform: scale(130%);
 }
 
 .button__link:hover {

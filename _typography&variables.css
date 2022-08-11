@@ -32,29 +32,6 @@ body .button__link {
   font-family: "Poppins";
   color: black;
   font-weight: 600;
+  box-shadow: 3px 7px 10px gold;
   border: 1.5px solid black;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-.projects__card--image:hover {
-  opacity: 1;
-}
-
-.interests__list--items:hover {
-  color: sandybrown;
-  font-size: xx-large;
-  font-weight: bold;
-}
-
-.skills__list--pic:hover {
-  color: "Roboto Slab";
-  transform: scale(130%);
-}
-
-.button__link:hover {
-  background-color: #E3F6F5;
-  transform: scale(115%);
 }
