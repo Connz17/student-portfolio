@@ -1,0 +1,27 @@
+@use './_typography&variables.scss' as *;
+
+a:link {
+
+}
+
+.projects__card--image:hover {
+    opacity: 1;
+}
+
+.interests__list--items:hover {
+
+    color: sandybrown;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.skills__list--pic:hover {
+    color: $font-title;
+    transform: scale(120%);
+    
+}
+
+.button__link:hover {
+    background-color: $color-background;
+    transform: scale(115%);
+}

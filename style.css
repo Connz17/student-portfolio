@@ -98,7 +98,7 @@ nav .nav .nav__title {
   margin-top: 53px;
   font-family: "Poppins";
 }
-.skills__list .pic {
+.skills__list--pic {
   max-width: 100%;
   height: auto;
 }
@@ -129,6 +129,8 @@ nav .nav .nav__title {
   max-width: 100%;
   height: auto;
   border-radius: 37px;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
 }
 
 #me {
@@ -207,4 +209,24 @@ footer .icon {
   padding: 7px;
   max-width: 100%;
   height: auto;
+}
+
+.projects__card--image:hover {
+  opacity: 1;
+}
+
+.interests__list--items:hover {
+  color: sandybrown;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.skills__list--pic:hover {
+  color: "Roboto Slab";
+  transform: scale(120%);
+}
+
+.button__link:hover {
+  background-color: #E3F6F5;
+  transform: scale(115%);
 }
