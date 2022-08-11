@@ -101,16 +101,29 @@ nav .nav .nav__title {
 
 .projects {
   display: grid;
+  gap: 10px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr, 2fr;
+  grid-template-rows: 1fr 2fr;
   text-align: justify;
   height: 30%;
+  margin: 10px;
+  padding: 3px;
 }
 .projects h1 {
   grid-column: 1/4;
-  margin: 5px;
   padding: 7px;
   text-align: center;
+}
+.projects__card {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid red;
+}
+.projects__card--image {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid purple;
 }
 
 #me {
