@@ -56,9 +56,9 @@
 
 }
 
-.me {
+#me {
     background-color: $color-background;
-    height: 25%;
+    height: 10%;
     margin-left: 7px;
 
     &__blurb {
@@ -71,26 +71,29 @@
     
 .list {
     width: 100%;
+    
     font-family: $font-title;
-    color: $color-heading;
+    
     background-color: $color-background;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-height: auto;
 
-    border: 1px solid red;
 
 
         &__heading {
             background-color: $color-background;
-            
-            &__items {
-                        display: flex;
-                        flex-direction: column;
-                        font-family: $font-body;
-                        color: black;
-                        background-color: $color-background;
+            display: flex;
+            flex-direction: column;
+            color: $color-heading;
+
+
+            // &__items {
+                        
+                        // font-family: $font-body;
+                        // color: black;
+                        // background-color: $color-background;
 
                     }
         }
@@ -106,7 +109,7 @@
 
             &__sport {
 
-                border-radius: 10px;
+                border-radius: 20px;
                 border: 1px solid red;
 
                 }
