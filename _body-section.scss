@@ -45,13 +45,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 2fr;
     text-align: justify;
-    height: 30%;
+    // height: 30%;
     margin: 10px;
     padding: 3px;
 
     
     h1 { grid-column: 1/4;
-        padding: 7px;
+        padding-top: 170px;
         text-align: center;
         
     }
@@ -60,13 +60,17 @@
         margin: auto;
         max-width: 100%;
         height: auto;
+        text-align: center;
+        font-family: $font-body;
 
-        border: 2px solid  red;
+        // border: 2px solid  red;
 
         &--image {
         max-width: 100%;
         height: auto;
-        border: 4px solid  purple;
+        border-radius: 37px;
+
+        // border: 4px solid  purple;
 
         }
     
