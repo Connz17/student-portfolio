@@ -4,7 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: white;
   box-sizing: border-box;
 }
 
@@ -19,7 +18,7 @@ body h1 {
 }
 body p {
   font-family: "Poppins";
-  color: black;
+  color: midnightblue;
   height: fit-content;
 }
 body .button__link {
@@ -80,34 +79,47 @@ body .button__link {
   text-align: center;
 }
 
-.me {
+#me {
   background-color: #E3F6F5;
-  height: 25%;
+  height: 10%;
   margin-left: 7px;
 }
-.me__blurb {
+#me__blurb {
   background-color: #E3F6F5;
+  color: midnightblue;
 }
-.me__list {
+
+.Interests {
+  width: 100%;
   font-family: "Roboto Slab";
-  color: gold;
+  color: midnightblue;
   background-color: #E3F6F5;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  height: auto;
+  justify-content: space-between;
+  max-height: auto;
+  padding: 10px;
 }
-.me__list--heading {
+.Interests__heading {
   background-color: #E3F6F5;
-}
-.me__list--items {
   display: flex;
   flex-direction: column;
-  font-family: "Poppins";
-  color: black;
-  background-color: #E3F6F5;
+  color: gold;
 }
-.me__list--sport {
-  border-radius: 10px;
+.Interests__heading__items {
+  font-family: "Poppins";
+  color: midnightblue;
+  background-color: #E3F6F5;
+  margin: 5px;
+}
+.Interests .balls {
+  display: flex;
+  border: 1px solid red;
+  align-items: flex-start;
+  height: auto;
+  justify-content: flex-end;
+}
+.Interests .balls__sport {
+  border-radius: 20px;
   border: 1px solid red;
 }

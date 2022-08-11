@@ -63,23 +63,30 @@
 
     &__blurb {
         background-color: $color-background;
+        color: $color-font;
     }
 
 }
     
     
     
-.list {
+.interests {
     width: 100%;
     
     font-family: $font-title;
-    
+    color: $color-font;
     background-color: $color-background;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-height: auto;
+    padding: 10px;
 
+        &__list {
+            margin: 5px;
+            padding: 5px;
+
+        }
 
 
         &__heading {
@@ -89,11 +96,12 @@
             color: $color-heading;
 
 
-            // &__items {
-                        
-                        // font-family: $font-body;
-                        // color: black;
-                        // background-color: $color-background;
+            &--items {
+                    font-family: $font-body;
+                    color: $color-font;
+                    background-color: $color-background;
+
+                    margin: 5px;
 
                     }
         }
