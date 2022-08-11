@@ -117,6 +117,7 @@ nav .nav .nav__title {
   background-color: #E3F6F5;
   margin-left: 7px;
   font-size: large;
+  padding-left: 10px;
 }
 #me__blurb {
   background-color: #E3F6F5;
@@ -143,7 +144,7 @@ nav .nav .nav__title {
   font-family: "Poppins";
   color: midnightblue;
   background-color: #E3F6F5;
-  padding-top: 10px;
+  padding-top: 3px;
   margin: 10px;
 }
 .interests__heading {
@@ -178,6 +179,8 @@ footer #email {
   align-items: center;
   color: gold;
   background-color: teal;
+  font-size: large;
+  font-family: "Poppins";
 }
 footer .icon {
   display: flex;
