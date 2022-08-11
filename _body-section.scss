@@ -58,8 +58,8 @@
 
 #me {
     background-color: $color-background;
-    height: 10%;
     margin-left: 7px;
+    font-size: large;
 
     &__blurb {
         background-color: $color-background;
@@ -85,7 +85,17 @@
         &__list {
             margin: 5px;
             padding: 5px;
+            font-size: large;
 
+
+            &--items {
+                font-family: $font-body;
+                color: $color-font;
+                background-color: $color-background;
+                padding-top: 3px;
+                margin: 10px;
+
+                    }
         }
 
 
@@ -96,14 +106,7 @@
             color: $color-heading;
 
 
-            &--items {
-                    font-family: $font-body;
-                    color: $color-font;
-                    background-color: $color-background;
-
-                    margin: 5px;
-
-                    }
+            
         }
 
         
