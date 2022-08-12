@@ -36,39 +36,6 @@ body .button__link {
   border: 1.5px solid black;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 5%;
-  font-size: large;
-}
-nav #name {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  font-weight: lighter;
-  margin: 5px;
-  padding: 10px;
-  margin-left: 15px;
-  font-family: "Oleo Script Swash Caps";
-  color: gold;
-}
-nav .nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 3px;
-  margin: 2px;
-  font-family: "Oleo Script Swash Caps";
-}
-nav .nav .nav__title {
-  margin: 3px;
-  padding: 5px;
-  font-weight: normal;
-  color: black;
-}
-
 .welcome {
   display: flex;
   justify-content: space-evenly;
@@ -200,64 +167,4 @@ nav .nav .nav__title {
 }
 .interests__balls--sport {
   border-radius: 20px;
-}
-
-footer {
-  background-color: teal;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 5%;
-  margin: 3px;
-  padding: 5px;
-}
-footer #email {
-  display: flex;
-  align-items: center;
-  color: gold;
-  background-color: teal;
-  font-size: large;
-  font-family: "Poppins";
-}
-footer .icon {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: teal;
-  padding: 7px;
-  max-width: 100%;
-  height: auto;
-}
-footer .icon__logo {
-  margin: 3px;
-  max-width: 100%;
-  height: auto;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-.projects__card--image:hover {
-  opacity: 1;
-}
-
-.interests__list--items:hover {
-  color: sandybrown;
-  font-size: xx-large;
-  font-weight: bold;
-}
-
-.skills__list--pic:hover {
-  color: "Roboto Slab";
-  transform: scale(130%);
-}
-
-.button__link:hover {
-  background-color: #E3F6F5;
-  transform: scale(115%);
-}
-
-.welcome__connel--pic:hover {
-  opacity: 1;
 }
