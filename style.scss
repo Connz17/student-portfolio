@@ -1,162 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
-/* Fonts: ("Oleo Script Swash Caps" - Fancy) - ("Poppins" - Body) - ("Roboto Slab" - Titles) */
-
-$font-fancy: "Oleo Script Swash Caps";
-$font-body: "Poppins";
-$font-title: "Roboto Slab";
-
- /* Heading text colour = dark blue  body text colour = black */
-$color-heading: skyblue;
-$colour-body: black;
-
-// globalpage settings
-* {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    box-sizing: border-box;
-
-}
-
-
-// top bar stylings
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
-    height: 5%;
-
-}
-
-#name {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;   
-    font-size: small;
-    font-weight: lighter;
-    margin: 5px;
-    padding: 10px;
-    margin-left: 15px;
-    border: 2px solid red;
-    font-family: $font-fancy;
-    color:$color-heading;
+@use './_nav&top-bar-elements.scss' as *;
+@use './_typography&variables.scss' as *;
+@use "./body-section" as *;
+@use "./footer" as *;
+@use "./pseudo-styles" as *;
 
 
     
-}
-
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 3px;
-    margin: 2px;
-
-    border: 2px solid red;
-}
-
-.nav-title {
-    margin: 3px;
-    padding: 2px;
-    font-family: $font-fancy;
-    font-size: medium;
-    font-weight:normal;
-
-}
-
-// main body stylings
-.intro {
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
-    text-align: left;
-    height: 20%;
-
-    border: 2px solid red;
-
-}
-
-.skills {
-    padding: 8px;
-    text-align: center;
-    height: 15%;
-
-    border: 2px solid red;
-
-}
-
-.list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 5px;
-    margin: 3px;
-    font-family: $font-body;
-    font-size: smaller;
-}
-
-.projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr, 2fr;
-    text-align: justify;
-    height: 30%;
-
-
-    border: 2px solid red;
-    
-    h1 { grid-column: 1/4;
-        margin: 5px;
-        padding: 7px;
-        text-align: center;
         
-    }
-
-}
-
-.me {
-    background-color: rgba(144, 226, 249, 0.53);
-    height: 25%;
+    // text-decoration-line: underline;
+    // text-decoration-style: wavy;
+    // text-decoration-color: $color-tertiary;
+    // text-decoration-thickness: 35px;
 
 
-    border: 2px solid red;
+    // @use "folder/file_name" as *
 
-}
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
-    height: 5%;
-
-    border: 2px solid red;
-}
-
-#email {
-    display: flex;
-
-    border: 2px solid red;
-}
-
-.icon {
-    display: flex;
-    justify-content: flex-end;
-    border: 2px solid red;
-
-}    
-
-p {
-    font-family: $font-body;
-    color: $colour-body;  
-}
-
-h1 {
-    font-family: $font-title;
-    color: $color-heading;
-    text-decoration: underline gold 1.5px;
-    text-transform: capitalize;
-}

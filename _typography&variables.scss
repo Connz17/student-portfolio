@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+/* Fonts: ("Oleo Script Swash Caps" - Fancy) - ("Poppins" - Body) - ("Roboto Slab" - Titles) */
+
+$font-fancy: "Oleo Script Swash Caps";
+$font-body: "Poppins";
+$font-title: "Roboto Slab";
+
+ /* Heading text colour = dark blue  body text colour = black */
+$color-heading: gold;
+$colour-body: black;
+$color-footer: teal;
+$color-background: #E3F6F5;
+$color-font: midnightblue;
+
+// globalpage settings
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    h1 {
+        font-family: $font-title;
+        color: $color-heading;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-thickness: 2px;
+        text-decoration-color: skyblue;
+        text-transform: capitalize;
+        }
+
+    p {
+    font-family: $font-body;
+    color: $color-font; 
+    height:fit-content; 
+
+    }
+
+
+    .button__link{
+        background-color: $color-footer;
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        padding-left: 9px;
+        padding-right: 9px;
+        border-radius: 7px;
+        font-family: $font-body;
+        color: $colour-body;
+        font-weight: 600;
+        box-shadow: 3px 7px 10px $color-heading;
+
+
+        border: 1.5px solid $colour-body;
+
+    }
+}
+       
+    // text-decoration-line: underline;
+    // text-decoration-style: wavy;
+    // text-decoration-color: $color-tertiary;
+    // text-decoration-thickness: 35px;

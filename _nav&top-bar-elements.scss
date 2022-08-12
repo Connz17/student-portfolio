@@ -1,0 +1,45 @@
+@use './_typography&variables.scss' as *;
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    height: 5%;
+    font-size: large;
+
+    #name {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;   
+        font-weight: lighter;
+        margin: 5px;
+        padding: 10px;
+        margin-left: 15px;
+        font-family: $font-fancy;
+        color:$color-heading;
+        
+    }
+
+    .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px;
+    margin: 2px;
+    font-family: $font-fancy;
+    
+
+
+        .nav__title {
+        margin: 3px;
+        padding: 5px;
+        font-weight:normal;
+        color: $colour-body;
+        
+        }
+
+    }
+
+}

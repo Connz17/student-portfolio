@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap");
+/* Fonts: ("Oleo Script Swash Caps" - Fancy) - ("Poppins" - Body) - ("Roboto Slab" - Titles) */
+/* Heading text colour = dark blue  body text colour = black */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body h1 {
+  font-family: "Roboto Slab";
+  color: gold;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  text-decoration-color: skyblue;
+  text-transform: capitalize;
+}
+body p {
+  font-family: "Poppins";
+  color: midnightblue;
+  height: fit-content;
+}
+body .button__link {
+  background-color: teal;
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 7px;
+  font-family: "Poppins";
+  color: black;
+  font-weight: 600;
+  border: 1.5px solid black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5%;
+  font-size: large;
+}
+nav #name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: lighter;
+  margin: 5px;
+  padding: 10px;
+  margin-left: 15px;
+  font-family: "Oleo Script Swash Caps";
+  color: gold;
+}
+nav .nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3px;
+  margin: 2px;
+  font-family: "Oleo Script Swash Caps";
+}
+nav .nav .nav__title {
+  margin: 3px;
+  padding: 5px;
+  font-weight: normal;
+  color: black;
+}
