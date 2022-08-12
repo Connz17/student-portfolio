@@ -32,6 +32,7 @@ body .button__link {
   font-family: "Poppins";
   color: black;
   font-weight: 600;
+  box-shadow: 3px 7px 10px gold;
   border: 1.5px solid black;
 }
 
@@ -55,8 +56,14 @@ footer #email {
 footer .icon {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: teal;
   padding: 7px;
+  max-width: 100%;
+  height: auto;
+}
+footer .icon__logo {
+  margin: 3px;
   max-width: 100%;
   height: auto;
 }

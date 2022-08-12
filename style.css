@@ -223,8 +223,14 @@ footer #email {
 footer .icon {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: teal;
   padding: 7px;
+  max-width: 100%;
+  height: auto;
+}
+footer .icon__logo {
+  margin: 3px;
   max-width: 100%;
   height: auto;
 }

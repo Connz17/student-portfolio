@@ -25,10 +25,17 @@ footer {
     .icon {
         display: flex;
         justify-content: space-around;
+        align-items: center;
         background-color: $color-footer;
         padding: 7px;
         max-width: 100%;
         height: auto;
+
+        &__logo {
+            margin: 3px;
+            max-width: 100%;
+            height: auto;
+        }
         
         }
 
