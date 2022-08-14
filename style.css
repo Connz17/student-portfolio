@@ -130,8 +130,8 @@ nav .nav .nav__title {
   grid-template-rows: 1fr 2fr;
   text-align: justify;
   font-size: large;
-  margin: 10px;
-  padding: 3px;
+  margin: 22px;
+  padding: 22px;
 }
 .projects h1 {
   grid-column: 1/4;
