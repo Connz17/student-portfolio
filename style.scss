@@ -5,16 +5,6 @@
 @use "./pseudo-styles" as *;
 
 
-    
-        
-    // text-decoration-line: underline;
-    // text-decoration-style: wavy;
-    // text-decoration-color: $color-tertiary;
-    // text-decoration-thickness: 35px;
-
-
-    // @use "folder/file_name" as *
-
 
 @media screen and (max-width: 960px) {
     .welcome {
@@ -34,4 +24,15 @@
         display: none;
     }
 
-}
+} 
+
+
+
+
+    // text-decoration-line: underline;
+    // text-decoration-style: wavy;
+    // text-decoration-color: $color-tertiary;
+    // text-decoration-thickness: 35px;
+
+
+    // @use "folder/file_name" as *
