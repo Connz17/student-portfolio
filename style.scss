@@ -16,3 +16,22 @@
     // @use "folder/file_name" as *
 
 
+@media screen and (max-width: 960px) {
+    .welcome {
+        flex-wrap: wrap;
+
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .welcome__connel--pic {
+        display: none;
+    }
+
+    .interests__game--pic {
+        display: none;
+    }
+
+}
