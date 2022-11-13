@@ -4,7 +4,7 @@
 
 - [About](#about)
 - [Project](#project)
-- [Usage](#usage)
+- [What was used](#usage)
 - [Future Scope](#future)
 
 ## About <a name = "about"></a>
